@@ -1,0 +1,112 @@
+/*
+ * Custom CSS
+ */
+
+ #header {
+  background-color: #fff6bf;
+  text-align: center;
+  padding: 0%;
+  
+}
+#inline-block {
+  display: inline-block;
+}
+#p.b.b {
+  font-family: sans-serif;
+
+}
+#img {
+border-radius: 0%;
+}
+
+#sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 8px;
+  left: 0px;
+  z-index: 10px;
+  padding-top: 20px;
+  background-color: #86908F;
+  color: #FFF6BF;
+  transition:transform;
+  transform: translateX(0);
+}
+
+#sidebar.active{
+  left: 0;
+}
+
+#sidebar ul.components {
+  padding: 20px;
+  border-bottom: 0px solid #FFF6BF;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1.2em;
+  display: block;
+  color: #FFF6BF;
+}
+
+#sidebar ul li a:hover {
+  background-color: #6A809E;
+}
+
+#sidebar .sidebar-header {
+  text-align: center;
+  padding: 25px;
+}
+
+#content {
+  margin-left: 250px;
+  padding: 50px;
+
+}
+h2 {
+  font-size: 32px;
+  font-family: sans-serif;
+  color: #6A809E;
+  text-align: center;
+}
+
+/* Apply styles to the <button> element */
+.btn-primary {
+  background-color: #86908F;
+  color: #FFF6BF;
+}
+
+/* Apply styles to the collapsible button when it's in the "collapsed" state */
+.collapse show + .btn.btn-primary {
+  background-color: #ff5722; /* You can change this color */
+  color: #fff;
+}
+
+/* Apply styles to the <p> elements */
+p {
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+/* Content */
+.sideAccent {
+  background: #007bff;
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 25px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card {
+  padding: 35%;
+  margin-inline: 0%;
+  align-items: left;
+}
+
+
+
